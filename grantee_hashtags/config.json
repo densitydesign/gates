@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "text": "Liliana Bounegru, Gabriele Colombo, Maya Livio, Michele Mauri and Richard Rogers",
+    "file": "",
+    "link": ""
+  },
+  "text": {
+    "title": "Project flows from grantees to locations of work",
+    "more": "long desc",
+    "intro": "short desc\t"
+  },
+  "legend": {
+    "edgeLabel": "Mentions",
+    "colorLabel": "Clusters",
+    "nodeLabel": "Hashtags"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "cluster_name",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "imageAttribute": false,
+    "groupByEdgeDirection": true
+  },
+  "sigma": {
+    "graphProperties": {
+      "minEdgeSize": 0.2,
+      "maxNodeSize": 10,
+      "maxEdgeSize": 0.5,
+      "minNodeSize": 0.5
+    },
+    "drawingProperties": {
+      "labelThreshold": 5,
+      "hoverFontStyle": "bold",
+      "defaultEdgeType": "curve",
+      "defaultLabelColor": "#000",
+      "defaultLabelHoverColor": "#fff",
+      "defaultLabelSize": 14,
+      "activeFontStyle": "bold",
+      "fontStyle": "bold",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd"
+    },
+    "mouseProperties": {
+      "minRatio": 0.75,
+      "maxRatio": 20
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "text": "",
+    "file": "",
+    "link": ""
+  },
+  "text": {
+    "title": "",
+    "more": "",
+    "intro": "Field network - co hashtag without globalhealth  and globaldev\n"
+  },
+  "legend": {
+    "edgeLabel": "",
+    "colorLabel": "clusters",
+    "nodeLabel": "hashtag"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "imageAttribute": false,
+    "groupByEdgeDirection": true
+  },
+  "sigma": {
+    "graphProperties": {
+      "minEdgeSize": 0.2,
+      "maxNodeSize": 58,
+      "maxEdgeSize": 0.5,
+      "minNodeSize": 0.2
+    },
+    "drawingProperties": {
+      "labelThreshold": 8,
+      "hoverFontStyle": "bold",
+      "defaultEdgeType": "curve",
+      "defaultLabelColor": "#000",
+      "defaultLabelHoverColor": "#fff",
+      "defaultLabelSize": 12,
+      "activeFontStyle": "bold",
+      "fontStyle": "bold",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd"
+    },
+    "mouseProperties": {
+      "minRatio": 0.75,
+      "maxRatio": 20
+    }
+  }
+}

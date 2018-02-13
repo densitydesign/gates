@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "text": "",
+    "file": "",
+    "link": ""
+  },
+  "text": {
+    "title": "",
+    "more": "",
+    "intro": "field network - Social Graph by mentions\n"
+  },
+  "legend": {
+    "edgeLabel": "",
+    "colorLabel": "grantees or non grantees",
+    "nodeLabel": "mentions by other"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "imageAttribute": false,
+    "groupByEdgeDirection": true
+  },
+  "sigma": {
+    "graphProperties": {
+      "minEdgeSize": 0.4,
+      "maxNodeSize": 35,
+      "maxEdgeSize": 1,
+      "minNodeSize": 0.6
+    },
+    "drawingProperties": {
+      "labelThreshold": 5,
+      "hoverFontStyle": "bold",
+      "defaultEdgeType": "curve",
+      "defaultLabelColor": "#000",
+      "defaultLabelHoverColor": "#fff",
+      "defaultLabelSize": 19,
+      "activeFontStyle": "bold",
+      "fontStyle": "bold",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd"
+    },
+    "mouseProperties": {
+      "minRatio": 0.75,
+      "maxRatio": 20
+    }
+  }
+}
